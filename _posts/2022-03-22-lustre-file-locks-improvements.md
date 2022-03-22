@@ -1,6 +1,6 @@
 ---
-layout: post
 title:  Lustre File Locks Improvements
+author: Howard Lau
 excerpt_separator: <!--more-->
 ---
 Derived from VAX distributed lock manager, Lustre file system locks consist of six modes (NL, CR, CW, PR, PW, EX). The locks are organized in separate namespaces, e.g. metadata namespace and object namespace. Locks are requested when I/O operations are initiated. The locks are managed by different servers (OSS, MDS...) and are requested by clients (OSC, MDC...). However, Lustre performs poorly when multiple processes writing a single shared file in strides.  
