@@ -1,3 +1,5 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "Haohua Liu"
 minimal_mistakes_skin: "air"
+plugins:
+  - "jekyll-include-cache"
