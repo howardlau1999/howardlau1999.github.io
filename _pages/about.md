@@ -1,7 +1,7 @@
 ---
 layout: single
 title: About me
-permalink: /about
+permalink: /about/
 ---
 
 English Resume: [PDF](https://howardlau.me/wp-content/uploads/2021/10/resume_master.pdf)

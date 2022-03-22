@@ -1,6 +1,7 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "Haohua Liu"
 minimal_mistakes_skin: "air"
+include: ["_pages"]
 plugins:
   - "jekyll-include-cache"
 defaults:
@@ -14,7 +15,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      toc: true
    # _pages
   - scope:
       path: ""
