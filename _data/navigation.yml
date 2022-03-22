@@ -1,6 +1,9 @@
-- name: Home
-  link: /
-- name: About
-  link: /about/
-- name: Blog
-  link: /blog/
+main:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+  - title: 中文博客
+    url: https://howardlau.me
