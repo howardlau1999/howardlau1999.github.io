@@ -17,3 +17,9 @@ Group locking enabled for a file requests Lustre not to acquire write locks. It 
 ## Lockahead
 
 Lockahead provides the user space with new APIs that allow applications request locks on specific extents explicitly separated from I/O operations. The locks are not allowed to expand. In this way, if applications know their access patterns beforehand, they can avoid false lock conflicts by acquiring the locks exactly. Moreover, lock requests are sent asynchronously in parallel, so that the round-trip time in effect is equal to that requesting one lock. 
+
+## References
+
+[Lustre Lockahead: Early experience and performance using optimized locking](https://cug.org/proceedings/cug2017_proceedings/includes/files/pap141s2-file1.pdf)
+
+[Shared File Performance Improvements](https://wiki.lustre.org/images/f/f9/Shared-File-Performance-in-Lustre_Farrell.pdf)
