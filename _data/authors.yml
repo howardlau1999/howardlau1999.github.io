@@ -1,0 +1,12 @@
+Howard Lau:
+  name: "Howard Lau (Haohua Liu)"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:howardlau1999@hotmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/howardlau1999"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/howardlau1999"
