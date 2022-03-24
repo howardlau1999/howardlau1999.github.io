@@ -1,5 +1,7 @@
 Howard Lau:
   name: "Howard Lau (Haohua Liu)"
+  bio: "Talk is cheap."
+  avatar: "/assets/images/avatar-wuzhen.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
