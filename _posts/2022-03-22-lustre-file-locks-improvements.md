@@ -13,7 +13,7 @@ The write locks are automatically expanded by server when requested. For example
 <!--more-->
 ## Group Locking
 
-Group locking enabled for a file requests Lustre not to acquire write locks. It is the application's responsibility to maintain consistency of the file since the file system is no longer providing the guarantees. This also means the reads and writes on the file do not conform to POSIX standards.
+Group locking enabled for a file requests Lustre not to acquire write locks. It is the application that is responsible for maintaining consistency of the file since the file system is no longer providing the guarantees. This also means the reads and writes on the file do not conform to POSIX standards.
 
 ## Lockahead
 
