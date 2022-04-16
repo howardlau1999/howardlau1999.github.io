@@ -4,7 +4,9 @@ author: Howard Lau
 excerpt_separator: <!--more-->
 ---
 
-Asynchronous programming (aka. event-driven programming) allows us to handle a large number of concurrent tasks with low overhead and a small number of threads. For those who have not yet got used to this programming paradigm, asynchronous programming may be something magical and horrifying. In fact, it is just all about three easy pieces. Yet what makes it really difficult are three hard pieces. 
+Asynchronous programming (aka. event-driven programming) allows us to handle a large number of concurrent tasks with low overhead and a small number of threads. For those who have not yet got used to this programming paradigm, asynchronous programming may be something magical and horrifying. In fact, it is just all about three easy pieces. Yet what makes it really difficult are another three hard pieces. 
+
+<!--more-->
 
 ## Three Easy Pieces
 
@@ -85,6 +87,8 @@ Synchronization is a nightmare when writing multi-threaded programs. Asychronous
 
 ### Cancellation
 
-Assume that you are writing a server programming serving web pages. An impatient user may click the "cancel" button before a time-consuming database operation finishes, rendering the result useless. In this case, we had better cancel the database operation to save server resources.
+Assume that you are writing a server programming serving web pages. An impatient user may click the "cancel" button before a time-consuming database operation finishes or an unlucky user is accidentally disconnected, rendering the result useless. In this case, we had better cancel the database operation to save server resources.
 
 However, implementing cancellation is way more difficult as it requires you to keep track of EVERYTHING involved in a request and invoke extra functions to cancel them when a cancel request is received. For example, you may need to cancel the database operation, the network connection, the disk I/O, the file I/O, the memory allocation, etc. You need a way to **propagate** the cancel signal along the call chain. If you forget to release some resources or some coroutines miss the signal, you will waste time or money doing useless operations. 
+
+There are some common ways of implementing cancellation, one of which is the `select` paradigm. By using `select`, the coroutine not only waits for the event it is interested in, but also the cancel signal. Whichever comes first, the coroutine will be resumed to handle that event.
