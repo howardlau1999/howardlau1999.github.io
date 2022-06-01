@@ -16,7 +16,7 @@ Toolkits: Docker, Kubernetes, Ansible, PyTorch
 
 Languages: Cantonese (native), Mandarin (native), English (fluent, TOEFL 108)
 
-English Resume: [PDF](https://howardlau.me/wp-content/uploads/2021/10/resume_master.pdf)
+English Resume: [PDF](https://howardlau.me/wp-content/uploads/2022/06/resume_en_2022-06.pdf)
 
 Visit my Chinese blog: [https://howardlau.me](https://howardlau.me)
 
