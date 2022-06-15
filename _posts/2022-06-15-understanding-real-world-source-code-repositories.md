@@ -1,4 +1,12 @@
+---
+title:  "Understanding Real World Source Code Repositories"
+author: Howard Lau
+excerpt_separator: <!--more-->
+---
+
 It sounds like a haunting task understanding real-world large-scale source code repositories for less-experienced junior programmers. If you are the junior ones and attempting to figure out a large project, you are likely to get lost in the intertwined code labyrinth. Therefore, we have to rely on some guidance to find a way out. Here are what I learnt after reading hundreds of such projects.
+
+<!--more-->
 
 ## Read the Docs
 First of all, you have to at least read through the README of a project, or the main wiki page. In this stage, you need to get familiar with what kind of this software is, what is it for and on what platforms does this software run. 
