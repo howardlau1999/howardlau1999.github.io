@@ -9,7 +9,7 @@ It sounds like a haunting task understanding real-world large-scale source code 
 <!--more-->
 
 ## Read the Docs
-First of all, you have to at least read through the README of a project, or the main wiki page. In this stage, you need to get familiar with what kind of this software is, what is it for and on what platforms does this software run. 
+First of all, you have to at least read through the README of a project, or the main wiki page. In this stage, you need to get familiar with what kind of this software is, what is it for and on what platforms this software runs. 
 
 ## Run the Code
 The next step is to get the code running. This means you have to set up the development environment properly, compile the code successfully and finally spawn the process. You should install build and run dependencies, and build tools. Although it sounds quite easy, this is the most tedious and error-prone process. You must be careful of dealing with different versions of dependencies and compilers. Sometimes they conflict with system-wide installations so you have to make a local installation. Large projects are very picky about versions, not even a minor difference tolerated. 
