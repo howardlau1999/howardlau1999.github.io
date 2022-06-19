@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from email.mime.base import MIMEBase
 import smtplib
 from email import encoders
