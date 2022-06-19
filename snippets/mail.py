@@ -68,10 +68,10 @@ if __name__ == "__main__":
   mime_type = "plain"
   if args.html:
     mime_type = "html"
-  receipients = [addr.strip() for addr in args.to.split(",")]
+  recipients = [addr.strip() for addr in args.to.split(",")]
   from_addr = os.getenv("MAIL_FROM")
   mail = MIMEText(body, mime_type, "utf-8")
   if args.attach:
     args.attach = [fn for arr in args.attach for fn in arr]
   if args.via == "smtp":
-    smtp(from_addr, receipients, args.subject, body, mime_type, args.attach)
+    smtp(from_addr, recipients, args.subject, body, mime_type, args.attach)
