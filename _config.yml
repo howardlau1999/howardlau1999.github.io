@@ -2,6 +2,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "Haohua Liu"
 author: "Howard Lau"
 minimal_mistakes_skin: "air"
+markdown: kramdown
 include: ["_pages"]
 plugins:
   - "jekyll-include-cache"

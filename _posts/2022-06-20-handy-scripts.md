@@ -61,7 +61,7 @@ Plot more professionally with `matplotlib` by setting a handful of parameters, e
 
 More like a template or reference for convenience without bothering to read the docs.
 
-![plot](../assets/images/plot.png)
+![plot](/assets/images/plot.png)
 
 ```python
 import matplotlib.pyplot as plt
