@@ -10,6 +10,9 @@ My research interests broadly lie in distributed system, operating system and fi
 
 Having learnt a lot from the open-source community, I am devoted to passing on the merits to others by constantly contributing to open-source projects. Checkout my [GitHub profile](https://github.com/howardlau1999/) for open-source projects I have contributed to!
 
+![Running LiteNES emulator on the CPU I build](/assets/images/litenes-scaled.jpg)
+^ Running LiteNES emulator on [the CPU I build](https://github.com/howardlau1999/yatcpu)
+
 Skills: C, C++, Rust, Go, Python, Java, Javascript, Verilog, Chisel 3, RISC-V, FPGA, NVM (non-volatile memory), Distributed Databases (e.g., TiDB)
 
 Toolkits: Docker, Kubernetes, Ansible, PyTorch
